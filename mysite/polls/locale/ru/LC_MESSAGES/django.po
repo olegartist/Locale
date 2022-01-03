@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-03 11:30+0000\n"
+"POT-Creation-Date: 2022-01-03 12:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,18 +20,18 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: templates/index.html:8
+#: polls/templates/index.html:25
 msgid "Welcome polss Heading"
-msgstr "Поллс"
+msgstr "Привет1"
 
-#: templates/index.html:9
+#: polls/templates/index.html:26
 msgid "Welcome polls Message"
-msgstr "Поллс"
+msgstr "Привет2"
 
-#: views.py:10
+#: polls/views.py:16
 msgid "StatusPoll Msg"
-msgstr "Поллс"
+msgstr ""
 
-#: views.py:11
+#: polls/views.py:17
 msgid "Hello world"
-msgstr "123"
+msgstr "Мир пп"

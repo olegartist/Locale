@@ -103,16 +103,16 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
-LANGUAGE_CODE = 'ru'
+LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-# LANGUAGES = [
-#     ('ru', 'Русский'),
-#     ('en-us', 'English'),
-# ]
+LANGUAGES = [
+    ('ru', 'Русский'),
+    ('en-us', 'English'),
+]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
@@ -126,9 +126,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #SITE_ID = 1
 
-# LOCALE_PATH = [
-#     os.path.join(BASE_DIR, 'locale')
-# ]
+LOCALE_PATH = [
+    os.path.join(BASE_DIR, 'locale')
+]
 
 # STATICFILES_DIRS = [
 #         BASE_DIR / "static",

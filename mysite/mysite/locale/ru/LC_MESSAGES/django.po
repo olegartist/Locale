@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-03 11:06+0000\n"
+"POT-Creation-Date: 2022-01-03 12:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,14 +20,14 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: templates/index.html:8
+#: mysite/templates/index.html:8
 msgid "Welcome Heading"
-msgstr "Привет1"
+msgstr "hi11"
 
-#: templates/index.html:9
+#: mysite/templates/index.html:9
 msgid "Welcome Message"
-msgstr "Привет5"
+msgstr "hi11"
 
-#: views.py:9
+#: mysite/views.py:9
 msgid "Status Msg"
-msgstr "Статус3"
+msgstr "hhh"
