@@ -24,7 +24,7 @@ msgstr ""
 msgid "Welcome polss Heading"
 msgstr "Привет1"
 
-#: polls/templates/index.html:26
+#: ./polls/templates/index.html:26
 msgid "Welcome polls Message"
 msgstr "Привет2"
 

@@ -20,8 +20,8 @@ from .views import IndexViewer, index
 urlpatterns = [
     #path('i18n/', include('django.conf.urls.i18n')),
     path('admin/', admin.site.urls),
-    path('', include('polls.urls')),
+    path('', IndexViewer.as_view()),
+    #path('', include('polls.urls')),
 
-    # path('', IndexViewer.as_view()),
     # path('', index, name='index'),
 ]

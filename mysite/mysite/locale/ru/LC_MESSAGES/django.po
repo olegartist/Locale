@@ -20,14 +20,15 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: mysite/templates/index.html:8
+#: .templates/index.html:8
 msgid "Welcome Heading"
 msgstr "hi11"
 
+#: .polls/templates/index.html:26
+msgid "Welcome polls Message"
+msgstr "Привет2"
+
+
 #: mysite/templates/index.html:9
 msgid "Welcome Message"
-msgstr "hi11"
-
-#: mysite/views.py:9
-msgid "Status Msg"
-msgstr "hhh"
+msgstr "Привет"
